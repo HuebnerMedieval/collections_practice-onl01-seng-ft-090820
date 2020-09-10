@@ -9,5 +9,8 @@ def sort_array_desc(array)
       0
     elsif a > b
       -1
-    
+    elsif a < b
+      1
+    end
+  descending_array
 end
