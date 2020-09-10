@@ -1,3 +1,5 @@
+require 'pry'
+
 def sort_array_asc(array)
   ascending_array = array.sort
   ascending_array
@@ -20,6 +22,7 @@ def sort_array_char_count (array)
   char_count_sort = array.sort do |a, b|
     a_array = a.split("")
     b_array = b.split("")
+    binding.pry
     if a_array.length = b_array.length
       0
     elsif a_array.length < b_array.length
