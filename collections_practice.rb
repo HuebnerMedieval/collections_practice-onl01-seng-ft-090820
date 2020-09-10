@@ -33,5 +33,5 @@ def swap_elements (array)
       0
     end
   end
-  swapped_array
+  swappped_array
 end
