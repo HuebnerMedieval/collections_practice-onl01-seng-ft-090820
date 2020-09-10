@@ -28,6 +28,10 @@ def swap_elements (array)
     if array.index(a) = 0
       0
     elsif array.index(a) = 1
-      
+      1
+    else
+      0
+    end
   end
+  swapped_array
 end
