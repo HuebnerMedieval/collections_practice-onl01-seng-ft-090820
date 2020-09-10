@@ -20,8 +20,11 @@ end
 
 def sort_array_char_count (array)
   char_count_sort = array.sort do |a, b|
-    #binding.pry
     a.length <=> b.length
   end
   char_count_sort
+end
+
+def swap_elements (array)
+  swappped_array = array.
 end
