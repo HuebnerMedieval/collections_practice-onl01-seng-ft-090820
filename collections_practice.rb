@@ -30,6 +30,8 @@ def sort_array_char_count (array)
     elsif a_array.length > b_array.length
       1
     end
+    a = a_array.join
+    b = b_array.join
   end
   char_count_sort
 end
