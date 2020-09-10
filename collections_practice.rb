@@ -38,4 +38,5 @@ end
 
 def reverse_array (array)
   yarra = array.reverse
+  yarra
 end
