@@ -22,11 +22,11 @@ def sort_array_char_count (array)
   char_count_sort = array.sort do |a, b|
     binding.pry
     if a.length == b.length
-      return 0
+      0
     elsif a < b.length
-      return -1
+      -1
     elsif a.length > b.length
-      return 1
+      1
     end
   end
   char_count_sort
