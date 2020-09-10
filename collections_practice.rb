@@ -18,7 +18,9 @@ end
 
 def sort_array_char_count (array)
   char_count_sort = array.sort do |a, b|
-    if a.length = b.length
+    a_array = a.split("")
+    b_array = b.split
+    if a_array.length = b_array.length
       0
     elsif a.length < b.length
       -1
