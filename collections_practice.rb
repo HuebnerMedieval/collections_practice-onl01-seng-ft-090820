@@ -25,6 +25,8 @@ end
 
 def swap_elements (array)
   swappped_array = array.sort do |a, b|
-    if 
+    if array.index(a) = 0
+      0
+    elsif array.index(a)
   end
 end
