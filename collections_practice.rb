@@ -20,6 +20,7 @@ end
 
 def sort_array_char_count (array)
   char_count_sort = array.sort do |a, b|
+    binding.pry
     if a.length = b.length
       0
     elsif a < b.length
