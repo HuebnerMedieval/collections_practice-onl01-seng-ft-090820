@@ -20,18 +20,13 @@ end
 
 def sort_array_char_count (array)
   char_count_sort = array.sort do |a, b|
-    a_array = a.split("")
-    b_array = b.split("")
-    #binding.pry
-    if a_array.length = b_array.length
+    if a.length = b.length
       0
-    elsif a_array.length < b_array.length
+    elsif a < b.length
       -1
-    elsif a_array.length > b_array.length
+    elsif a.length > b.length
       1
     end
-    a = a_array.join
-    b = b_array.join
   end
   char_count_sort
 end
