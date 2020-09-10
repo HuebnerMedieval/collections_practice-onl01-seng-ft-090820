@@ -1,4 +1,10 @@
 def sort_array_asc(array)
-  sorted_array = array.sort
-  sorted_array
+  ascending_array = array.sort
+  ascending_array
+end
+
+def sort_array_desc(array)
+  descending_array = array.sort do |a, b|
+    if a == b
+      
 end
