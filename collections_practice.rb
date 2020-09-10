@@ -54,3 +54,7 @@ def find_a(array)
   a_array = array.select {|word| word[0] == "a"}
   a_array
 end
+
+def sum_array(array)
+  
+end
