@@ -22,9 +22,9 @@ def sort_array_char_count (array)
     b_array = b.split
     if a_array.length = b_array.length
       0
-    elsif a.length < b.length
+    elsif a_array.length < b_array.length
       -1
-    elsif a.length > b.length
+    elsif a_array.length > b_array.length
       1
     end
   end
